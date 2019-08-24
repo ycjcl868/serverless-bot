@@ -1,6 +1,6 @@
 <h1 align="center">Serverless-bot 👋</h1>
 <p>
-A Serverless Github bot using `umijs` <a href="https://github.com/umijs/father">build tool</a>.
+A Serverless Github bot using umijs <a href="https://github.com/umijs/father">build tool</a>.
 </p>
 
 > Take the github hooks robot as an example, you can write your function in `src`.
@@ -16,7 +16,7 @@ Create your serverless function easily:
 ## Usage
 for example, we use [Aliyun Function Compute](https://www.alibabacloud.com/products/function-compute).
 
-fill in your `WEB_HOOK` url (serverless will send a notification to it), if your github hook has `Secret`, you should supply the `GITHUB_HOOK_SECRET` in `template.yml`.
+fill in your `WEB_HOOK` url (serverless will send a notification to it, you can send multiple-address using `,` separator), if your github hook has `Secret`, you should supply the `GITHUB_HOOK_SECRET` in `template.yml`.
 
 ```sh
 $ npm install
