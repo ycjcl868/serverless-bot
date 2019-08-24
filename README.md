@@ -1,6 +1,6 @@
 <h1 align="center">Serverless-bot 👋</h1>
 <p>
-A Serverless function build tool using `umijs` [build tool](https://github.com/umijs/father).
+A Serverless Github bot using `umijs` <a href="https://github.com/umijs/father">build tool</a>.
 </p>
 
 > Take the github hooks robot as an example, you can write your function in `src`.
