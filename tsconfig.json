@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "preserveConstEnums": true,
+    "strictNullChecks": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "target": "es5",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["es2015"],
+    "rootDir": "./src"
+  }
+}

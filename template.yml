@@ -1,0 +1,25 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  bot:
+    Type: 'Aliyun::Serverless::Service'
+    Properties:
+      Description: This is bot service
+    github:
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: index.handler
+        Runtime: nodejs10
+        Timeout: 60
+        MemorySize: 512
+        CodeUri: ./dist
+        EnvironmentVariables:
+          WEB_HOOK: your_web_notice_url
+          GITHUB_HOOK_SECRET: your_secret
+      Events:
+        httpTrigger:
+          Type: HTTP
+          Properties:
+            AuthType: ANONYMOUS
+            Methods:
+              - POST

@@ -1,0 +1,5 @@
+node_modules/
+src/
+.eslintrc.js
+.eslintignore
+tsconfig.json
