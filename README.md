@@ -23,4 +23,9 @@ $ npm install
 $ npm run deploy
 ```
 
+DingTalk bot:  
 ![image](https://user-images.githubusercontent.com/13595509/63635647-3ef33b80-c697-11e9-9ce6-bb9ae8deff21.png)
+
+Wechat bot:  
+![image](https://user-images.githubusercontent.com/13595509/63639512-a2e12880-c6c6-11e9-8579-9b9ec63cce36.png)
+
