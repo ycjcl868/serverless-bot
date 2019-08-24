@@ -24,11 +24,3 @@ $ npm run deploy
 ```
 
 ![image](https://user-images.githubusercontent.com/13595509/63635647-3ef33b80-c697-11e9-9ce6-bb9ae8deff21.png)
-
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
